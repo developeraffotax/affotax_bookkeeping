@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start gap-4 ">
         <Image src={LogoVPN} className="drop-shadow-md cursor-pointer  " height={50} width={150}/>
           <p className="mb-4">
-            <strong className="font-medium">Affotax Bookkeeping Services</strong>  is a reliable bookkeeping firm that specialises in providing affordable bookkeeping services to PK businesses.
+            <strong className="font-medium">Affotax Bookkeeping Services</strong>  is a reliable bookkeeping firm that specialises in providing affordable bookkeeping.
           </p>
           {/* <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
