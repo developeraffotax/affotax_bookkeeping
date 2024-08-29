@@ -1,40 +1,33 @@
-# [Tailwind VPN Landingpage](https://next-landing-vpn.vercel.app/) - Free Landingpage Template Apps
+# Affotax Bookkeeping Services
 
-Tailwind VPN Landingpage is an open source, apps landing page template for [Tailwind CSS](https://tailwindcss.com/) and[ NextJS](nextjs.org/) coded by [Faldi](twitter.com/f2aldi) and design from [Didi](https://twitter.com/didiikurniawann).
+Welcome to the Affotax Bookkeeping Services project! This is a Next.js-based website designed to offer bookkeeping and accounting services to clients. 
 
-![Landing Page](./landingpage.png)
+## Table of Contents
 
-## Getting Started
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Choose one of the following options to get started:
+## About
 
-- [Download the latest release](https://github.com/naufaldi/next-landing-vpn/archive/main.zip)
-- Clone the repo: `git clone https://github.com/naufaldi/next-landing-vpn.git`
-- Fork the repo
+Affotax Bookkeeping Services provides comprehensive bookkeeping solutions for businesses. This website includes features such as service descriptions, a contact form, and client testimonials, all built using Next.js.
 
-## About the Template
+## Features
 
-- Template building using NextJS Version 10
-- Tailwind v2.0
+- **Next.js Pages:** Utilizes Next.js for server-side rendering and static site generation.
+- **Contact Form:** Integrated contact form using Nodemailer for handling inquiries.
+- **Service Listings:** Detailed descriptions of bookkeeping services offered.
+- **Client Testimonials:** Section to showcase client feedback and success stories.
 
-## Feature Template
+## Installation
 
-- Using [NextJS Image](https://nextjs.org/docs/api-reference/next/image) for Image Optimization
-- Slider using [React Slick](https://react-slick.neostack.com/docs/api)
-- Smooth Scrolling and Active menu using [React Scroll](https://www.npmjs.com/package/react-scroll)
+To get started with the project, follow these steps:
 
-## Bugs and Issues
+1. **Clone the Repository:**
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/naufaldi/next-landing-vpn/issues/new) here on GitHub.
-
-## Creator
-
-[Tailwind VPN Landingpage](https://next-landing-vpn.vercel.app/) was coded and modified by and is maintained by **[me](https://github.com/naufaldi/)**, and dekstop design by [Didi Kurniawan](https://twitter.com/didiikurniawann)
-
-## Copyright and License
-
-Code released under the MIT license.
-
-## To Do List Add Feature
-
-- [ ] Animation using Framer Motion
+   ```bash
+   git clone https://github.com/developeraffotax/affotax_bookkeeping
