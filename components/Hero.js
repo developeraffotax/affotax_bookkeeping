@@ -29,7 +29,7 @@ const Hero = ({
 
   return (
     <div
-      className=" mt-24  py-20 "
+      className="   pt-24 "
       id="hero"
     >
       <div className="max-w-screen-xl  px-8 xl:px-16 mx-auto  ">

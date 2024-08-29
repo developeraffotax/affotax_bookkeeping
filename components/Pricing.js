@@ -24,7 +24,7 @@ const Pricing = () => {
 
   return (
     <div
-      className="bg-gradient-to-b from-white-500 to-white-300 w-full py-20"
+      className="bg-gradient-to-b from-white-500 to-white-300 w-full pt-24"
       id="pricing"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
@@ -90,7 +90,7 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                   Rs. 27,500 /mo
                   </p>
-                  <ButtonOutline>Select</ButtonOutline>
+                  <ButtonOutline>Inquire</ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -143,7 +143,7 @@ const Pricing = () => {
                 <p className="text-2xl text-black-600 text-center mb-4 ">
                 Rs. 55,500 /mo 
                 </p>
-                <ButtonOutline>Select</ButtonOutline>
+                <ButtonOutline>Inquire</ButtonOutline>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -200,7 +200,7 @@ const Pricing = () => {
                 Rs. 83,500 /mo
                 </p>
 
-                <ButtonOutline>Select</ButtonOutline>
+                <ButtonOutline>Inquire</ButtonOutline>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -237,7 +237,7 @@ const Pricing = () => {
 
 
                 {/* Testimonials */}
-        <div className="flex flex-col w-full my-16" id="testimonials">
+        <div className="flex flex-col w-full " id="testimonials">
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}

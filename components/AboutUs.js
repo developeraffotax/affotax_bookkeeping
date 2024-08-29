@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <div className="bg-gray-100/20 min-h-screen flex flex-col items-center py-10 bg-gradient-to-b from-white-300 to-white-500" id='about'>
+    <div className="bg-gray-100/20 min-h-screen flex flex-col items-center bg-gradient-to-b from-white-300 to-white-500 pt-24" id='about'>
       <header className="text-center mb-10">
         <h1 className="text-6xl font-bold   bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent drop-shadow-md">About Us</h1>
         <p className="text-lg text-gray-600 mt-2">Our journey, mission, and values.</p>

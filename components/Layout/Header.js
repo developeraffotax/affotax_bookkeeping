@@ -20,10 +20,13 @@ const Header = () => {
 
 
   useEffect(() => {
+    
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
     });
   }, []);
+
+
   return (
     <>
       <header
@@ -35,7 +38,7 @@ const Header = () => {
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center cursor-pointer">
             {/* <Image className="h-8 w-auto" /> */}
-            <Image src={LogoVPN} className="" height={50} width={200}/>
+            <Image src={LogoVPN} className="drop-shadow-md" height={50} width={150}/>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
@@ -44,6 +47,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               duration={1000}
+              
               onSetActive={() => {
                 setActiveLink("hero");
               }}
@@ -63,6 +67,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               duration={1000}
+              
               onSetActive={() => {
                 setActiveLink("pricing");
               }}
@@ -82,6 +87,7 @@ const Header = () => {
               to="about"
               spy={true}
               smooth={true}
+              
               duration={1000}
               onSetActive={() => {
                 setActiveLink("about");
@@ -151,14 +157,16 @@ const Header = () => {
               
 
               <div className="flex flex-col">
+                
+
                 <div className="flex items-center gap-2">
-                  <FaPhone />
-                  <span style={{ cursor: "pointer" }}> <a className="hover:text-blue-500 text-black-600" style={{ textDecoration: "none" }} href="mailto:info@affotaxbookkeeping.com"> info@affotaxbookkeeping.com </a> </span>
+                <FaPhone />
+                  <span style={{ cursor: "pointer" }}> <a className="hover:text-blue-500 text-black-600" style={{ textDecoration: "none" }} href="tel:0515209208"> 0515209208 </a> </span>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <MdAttachEmail />
-                  <span style={{ cursor: "pointer" }}> <a className="hover:text-blue-500 text-black-600" style={{ textDecoration: "none" }} href="tel:0515209208"> 0515209208 </a> </span>
+                   <MdAttachEmail />
+                  <span style={{ cursor: "pointer" }}> <a className="hover:text-blue-500 text-black-600" style={{ textDecoration: "none" }} href="mailto:info@affotaxbookkeeping.com"> info@affotaxbookkeeping.com </a> </span>
                 </div>
               </div>
             </div>
