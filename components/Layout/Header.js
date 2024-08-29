@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
-// Import react scroll
+
 import { Link as LinkScroll } from "react-scroll";
-import ButtonOutline from "../misc/ButtonOutline.";
-import LogoVPN from "../../public/assets/logo.PNG";
+import LogoVPN from "../../public/assets/logo.png";
 import Image from "next/image";
 
 import { FaPhone } from "react-icons/fa6";

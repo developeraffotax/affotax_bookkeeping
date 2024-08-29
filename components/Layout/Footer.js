@@ -1,8 +1,6 @@
 import React from "react";
-import LogoVPN from "../../public/assets/logo.PNG";
-import Facebook from "../../public/assets/Icon/facebook.svg";
-import Twitter from "../../public/assets/Icon/twitter.svg";
-import Instagram from "../../public/assets/Icon/instagram.svg";
+import LogoVPN from "../../public/assets/logo.png";
+
 
 import { Link as LinkScroll } from "react-scroll";
 import Image from "next/image";
