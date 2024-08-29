@@ -10,40 +10,40 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "Aisha Khan",
+      image: "/assets/people-2.png",
+      city: "Karachi",
+      country: "Pakistan",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        `I’ve been using Affotax Bookkeeping Services for my bookkeeping needs for the past year, and I couldn’t be happier. Their attention to detail and professionalism have helped me stay on top of my finances effortlessly. Highly recommend their services to anyone looking for reliable bookkeeping in Pakistan!`,
     },
     {
-      name: "iezh Robert",
+      name: "Ahmed Malik",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Lahore",
+      country: "Pakistan",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+       `Exceptional service! The team at Affotax Bookkeeping Services is knowledgeable and thorough. They’ve helped streamline our financial processes, and their prompt support has been invaluable. It’s a relief to have such a trustworthy partner handling our bookkeeping."`
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "John Smith",
+      image: "/assets/people-1.png",
+      city: "New York",
+      country: "USA",
+      rating: "4.4",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        `I’ve worked with several bookkeeping firms around the world, and Affotax Bookkeeping Services stands out for their professionalism and reliability. Their team provided exceptional support and handled my financial records with great precision. I highly recommend them for any international bookkeeping needs`
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "David Lee",
+      image: "/assets/people-4.png",
+      city: "Sydney",
+      country: "Australia",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        `I was initially hesitant to engage with a firm based overseas, but Affotax Bookkeeping Services exceeded all my expectations. Their detailed reports and clear communication have made managing my business finances from afar much easier. They truly deliver on their promises.`
     },
   ],
 }) => {
@@ -91,14 +91,15 @@ const Testimoni = ({
       >
         {listTestimoni.map((listTestimonis, index) => (
           <div className="px-3 flex items-stretch" key={index}>
-            <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-8 flex flex-col">
+            <div className="border-2 border-gray-500 hover:border-blue-500 transition-all rounded-lg p-8 flex flex-col">
               <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
-                <div className="flex order-2 xl:order-1">
+                <div className="flex order-2 xl:order-1  ">
                   <Image
                     src={listTestimonis.image}
                     height={50}
                     width={50}
                     alt="Icon People"
+                    className="rounded-full "
                   />
                   <div className="flex flex-col ml-5 text-left">
                     <p className="text-lg text-black-600 capitalize">
@@ -124,13 +125,13 @@ const Testimoni = ({
       <div className="flex w-full items-center justify-end">
         <div className="flex flex-none justify-between w-auto mt-14">
           <div
-            className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
+            className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-500 border hover:bg-blue-500 hover:text-white-500 transition-all text-blue-500 cursor-pointer"
             onClick={sliderRef?.slickPrev}
           >
             <ArrowBack className="h-6 w-6 " />
           </div>
           <div
-            className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
+            className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-500 border hover:bg-blue-500 hover:text-white-500 transition-all text-blue-500 cursor-pointer"
             onClick={sliderRef?.slickNext}
           >
             <ArrowNext className="h-6 w-6" />
