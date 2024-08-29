@@ -7,6 +7,7 @@ import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import { Link as LinkScroll } from "react-scroll";
 
 
 
@@ -90,7 +91,11 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                   Rs. 27,500 /mo
                   </p>
-                  <ButtonOutline>Inquire</ButtonOutline>
+
+                  <LinkScroll activeClass="active" to="contact" spy={true} smooth={true} duration={1000} className={ " cursor-pointer hover:text-blue-500" } > <ButtonOutline>Inquire</ButtonOutline> </LinkScroll>
+
+
+                  
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -143,7 +148,7 @@ const Pricing = () => {
                 <p className="text-2xl text-black-600 text-center mb-4 ">
                 Rs. 55,500 /mo 
                 </p>
-                <ButtonOutline>Inquire</ButtonOutline>
+                <LinkScroll activeClass="active" to="contact" spy={true} smooth={true} duration={1000} className={ " cursor-pointer hover:text-blue-500" } > <ButtonOutline>Inquire</ButtonOutline> </LinkScroll>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -200,7 +205,7 @@ const Pricing = () => {
                 Rs. 83,500 /mo
                 </p>
 
-                <ButtonOutline>Inquire</ButtonOutline>
+                <LinkScroll activeClass="active" to="contact" spy={true} smooth={true} duration={1000} className={ " cursor-pointer hover:text-blue-500" } > <ButtonOutline>Inquire</ButtonOutline> </LinkScroll>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
