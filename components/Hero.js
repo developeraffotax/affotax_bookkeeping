@@ -4,6 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import { Link as LinkScroll } from "react-scroll";
 
 const Hero = ({
   listUser = [
@@ -28,27 +29,46 @@ const Hero = ({
 
   return (
     <div
-      className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto"
-      id="about"
+      className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto py-20"
+      id="hero"
     >
       <ScrollAnimationWrapper>
           <motion.div
             className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
-              <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Want anything to be easy with <strong>LaslesVPN</strong>.
+              <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-relaxed">
+               The World's Most Affordable <span className="text-blue-500 drop-shadow-lg"> Bookkeeping </span> Firm
               </h1>
-              <p className="text-black-500 mt-4 mb-6">
-                Provide a network for all your needs with ease and fun using
-                LaslesVPN discover interesting features from us.
+              <p className="text-black-500 mt-4 mb-6  leading-7">
+              Welcome to Affotax Bookkeeping Services, your affordable bookkeeping partner, tailored for online businessess. We are a team of high professionals having expertise in <strong>Bookkeeping for Ecommerce and online seller,</strong> we are committed to providing reliable and expert bookkeeping services and our team is based in Pakistan.
               </p>
-              <ButtonPrimary>Get Started</ButtonPrimary>
+
+
+
+              <LinkScroll
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              
+              className={
+                "cursor-pointer inline-block relative"
+              }
+            >
+              <ButtonPrimary>Get a Quote</ButtonPrimary>
+            </LinkScroll>
+
+
+
+
+              
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/Illustration1.png"
+                  src="/assets/Illustration2.gif"
                   alt="VPN Illustrasi"
                   quality={100}
                   width={612}
@@ -59,7 +79,7 @@ const Hero = ({
             </div>
           </motion.div>
       </ScrollAnimationWrapper>
-      <div className="relative w-full flex">
+      {/* <div className="relative w-full flex">
         <ScrollAnimationWrapper
           className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
           {listUser.map((listUsers, index) => (
@@ -87,7 +107,7 @@ const Hero = ({
           className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-64 sm:h-48 top-0 mt-8 mx-auto left-0 right-0"
           style={{ filter: "blur(114px)" }}
        ></div>
-      </div>
+      </div> */}
     </div>
   );
 };

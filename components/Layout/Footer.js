@@ -84,6 +84,13 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+
+
+      {/* <footer className="mt-10 text-center">
+        <p className="text-gray-600">&copy; 2024 Our Company. All rights reserved.</p>
+      </footer> */}
+
+
     </div>
   );
 };
