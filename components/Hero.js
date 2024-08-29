@@ -29,16 +29,20 @@ const Hero = ({
 
   return (
     <div
-      className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto py-20"
+      className=" mt-24  py-20 "
       id="hero"
     >
+      <div className="max-w-screen-xl  px-8 xl:px-16 mx-auto  ">
+
+
+
       <ScrollAnimationWrapper>
           <motion.div
             className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-relaxed">
-               The World's Most Affordable <span className="text-blue-500 drop-shadow-lg"> Bookkeeping </span> Firm
+               The World's Most Affordable <span className="bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent drop-shadow-md"> Bookkeeping </span> Firm
               </h1>
               <p className="text-black-500 mt-4 mb-6  leading-7">
               Welcome to Affotax Bookkeeping Services, your affordable bookkeeping partner, tailored for online businessess. We are a team of high professionals having expertise in <strong>Bookkeeping for Ecommerce and online seller,</strong> we are committed to providing reliable and expert bookkeeping services and our team is based in Pakistan.
@@ -108,6 +112,11 @@ const Hero = ({
           style={{ filter: "blur(114px)" }}
        ></div>
       </div> */}
+
+
+
+
+      </div>
     </div>
   );
 };
