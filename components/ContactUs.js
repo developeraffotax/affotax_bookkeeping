@@ -81,7 +81,7 @@ export default function ContactUs() {
                   </div>
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white"> Contact </h3>
-                    <p className="text-gray-600 dark:text-slate-400"> Mobile: 0515209208 </p>
+                    <p className="text-gray-600 dark:text-slate-400"> Phone: 0515209208 </p>
                     <p className="text-gray-600 dark:text-slate-400"> Mail: info@affotaxbookkeeping.com </p>
                   </div>
                 </li>
@@ -92,7 +92,7 @@ export default function ContactUs() {
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white"> Working hours </h3>
                     <p className="text-gray-600 dark:text-slate-400"> Monday - Friday: 08:00 - 17:00 </p>
-                    <p className="text-gray-600 dark:text-slate-400"> Saturday &amp; Sunday: 08:00 - 12:00 </p>
+                    {/* <p className="text-gray-600 dark:text-slate-400"> Saturday &amp; Sunday: 08:00 - 12:00 </p> */}
                   </div>
                 </li>
 
