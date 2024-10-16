@@ -11,15 +11,17 @@ const AboutUs = () => {
 
       <section className="max-w-4xl mx-auto bg-white-500 shadow-lg rounded-lg p-8 ">
 
-      <h2 className="text-3xl font-semibold text-gray-800 mb-4">Our Services</h2>
-        <p className="text-gray-700 mb-6">
-        At Affotax Bookkeeping, we understand that managing your finances can be overwhelming. That's why we offer comprehensive bookkeeping services tailored to meet the unique needs of your business. Our experienced team ensures accurate record-keeping, from daily transactions to monthly reconciliations, allowing you to focus on what you do best—growing your business.
-        </p>
+     
 
 
         <h2 className="text-3xl font-semibold text-gray-800 mb-4">Who We Are</h2>
         <p className="text-gray-700 mb-6">
           We are a passionate team dedicated to delivering exceptional services and solutions. Our journey started with a shared vision to make a positive impact through innovation and collaboration.
+        </p>
+
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Our Services</h2>
+        <p className="text-gray-700 mb-6">
+        At Affotax Bookkeeping, we understand that managing your finances can be overwhelming. That's why we offer comprehensive bookkeeping services tailored to meet the unique needs of your business. Our experienced team ensures accurate record-keeping, from daily transactions to monthly reconciliations, allowing you to focus on what you do best—growing your business.
         </p>
         
         <h2 className="text-3xl font-semibold text-gray-800 mb-4">Our Mission</h2>
