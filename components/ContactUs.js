@@ -142,6 +142,12 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
+
+
+
+      <div className="w-full mx-auto max-w-7xl mt-12 rounded-2xl overflow-hidden shadow-md">
+      <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d987.8061325523654!2d72.96910470579695!3d33.61644567867201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1728982498706!5m2!1sen!2s" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </section>
   );
 }

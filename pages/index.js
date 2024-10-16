@@ -5,6 +5,7 @@ import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 import ContactUs from "../components/ContactUs";
 import AboutUs from "../components/AboutUs";
+import OurTeam from "../components/OurTeam";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         {/* <Feature /> */}
         <AboutUs />
         <ContactUs />
+        <OurTeam />
       </Layout>
     </>
   );
