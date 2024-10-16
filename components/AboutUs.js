@@ -35,6 +35,14 @@ const AboutUs = () => {
           <li><strong>Excellence:</strong> We are committed to delivering excellence in everything we do.</li>
         </ul>
 
+
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Services Expansion</h2>
+        <p className="text-gray-700 mb-6">
+        We are committed to expanding our services to include comprehensive accounting and tax filing solutions in the UK. Our firm has built a strong reputation for providing reliable and efficient bookkeeping services to clients around the world. By offering accounting and tax filing, we aim to cater to the growing demand from UK businesses seeking end-to-end financial management solutions.<br/> <br/> This expansion will allow us to serve a broader market, create local job opportunities, and contribute to the UK's business ecosystem. With our established expertise and a well-structured plan, we are confident in our ability to successfully grow our service portfolio within the UK.
+        </p>
+
+
+
         <h2 className="text-3xl font-semibold text-gray-800 mb-4">Get in Touch</h2>
         <p className="text-gray-700">
           We would love to hear from you! Reach out to us at <a href="mailto:info@affotaxbookkeeping.com" className="text-blue-500 hover:underline">info@affotaxbookkeeping.com</a> for any inquiries or feedback.

@@ -33,7 +33,7 @@ const Header = () => {
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
-        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
+        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4  ">
           <div className="col-start-1 col-end-2 flex items-center cursor-pointer">
             {/* <Image className="h-8 w-auto" /> */}
             <Image src={LogoVPN} className="drop-shadow-md" height={50} width={150}/>
@@ -169,7 +169,7 @@ const Header = () => {
                   : " text-black-500 hover:text-blue-500 ")
               }
             >
-              <button  className="  items-center text-center h-10 rounded-md bg-blue-500 text-white-300  border-0  px-3 ">
+              <button  className="  items-center text-center h-10 rounded-md bg-blue-500 text-white-300  border-0  px-3 max-lg:hidden max-lg:text-sm">
               Get a Quote
               </button>
             </LinkScroll>
@@ -233,6 +233,28 @@ const Header = () => {
       <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
         <div className="bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
+
+          <LinkScroll
+              activeClass="active"
+              to="our-team"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              onSetActive={() => {
+                setActiveLink("our-team");
+              }}
+              className={
+                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                (activeLink === "our-team"
+                  ? "  border-blue-500 text-blue-500"
+                  : " border-transparent ")
+              }
+            >
+            <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" width={24} height={24} viewBox="0 0 122.699 122.699" > <circle cx={19.5} cy={12.2} r={12.1} /> <path d="M6 66.699h1.2v24c0 3.301 2.7 6 6 6h12.6c3.3 0 6-2.699 6-6V89.3c-1.1-2.101-1.8-4.5-1.8-7V50.9c0-6.1 3.7-11.4 9-13.7v-2.4c0-3.3-2.7-6-6-6H6c-3.3 0-6 2.7-6 6v25.9c0 3.3 2.6 5.999 6 5.999z" /> <circle cx={103.3} cy={12.2} r={12.1} /> <path d="M83.699 34.7v2.4c5.301 2.3 9 7.6 9 13.7v31.3c0 2.5-.6 4.9-1.799 7v1.4c0 3.3 2.699 6 6 6h12.6c3.3 0 6-2.7 6-6v-24h1.199c3.301 0 6-2.7 6-6V34.7c0-3.3-2.699-6-6-6h-27c-3.299 0-6 2.699-6 6zM39.1 50.899V82.299c0 3.3 2.7 6 6 6h2.3v28.3c0 3.3 2.7 6 6 6h16.1c3.3 0 6-2.7 6-6v-28.4h2.3c3.3 0 6-2.699 6-6V50.9c0-3.3-2.7-6-6-6H45.1c-3.4-.001-6 2.7-6 5.999z" /> <circle cx={61.4} cy={26} r={13.9} /> </svg>
+              Our Team
+            </LinkScroll>
+
+
             <LinkScroll
               activeClass="active"
               to="about"
@@ -297,6 +319,9 @@ const Header = () => {
               </svg>
               Contact Us
             </LinkScroll>
+
+            
+
             <LinkScroll
               activeClass="active"
               to="pricing"

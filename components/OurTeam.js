@@ -13,10 +13,10 @@ const OurTeam = () => {
                 <div className="block group md:col-span-2 lg:col-span-1 ">
                     <div className="relative mb-6">
                         <img src="/assets/rashid.jpeg" alt="Antonio image"
-                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600" />
+                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-blue-500" />
                     </div>
                     <h4
-                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
+                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-blue-500">
                         Rashid Hassan </h4>
                     <span
                         className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">Founder & CEO</span>
@@ -24,10 +24,10 @@ const OurTeam = () => {
                 <div className="block group md:col-span-2 lg:col-span-1 ">
                     <div className="relative mb-6">
                         <img src="/assets/shefa.jpeg" alt="Patricia image"
-                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600" />
+                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-blue-500" />
                     </div>
                     <h4
-                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
+                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-blue-500">
                         Shefa Muhammad </h4>
                     <span
                         className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">Senior Accountant</span>
@@ -35,10 +35,10 @@ const OurTeam = () => {
                 <div className="group group md:col-span-2 lg:col-span-1">
                     <div className="relative mb-6">
                         <img src="/assets/saad.jpeg" alt="Jerom image"
-                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600" />
+                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-blue-500" />
                     </div>
                     <h4
-                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
+                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-blue-500">
                        Saad Khan </h4>
                     <span
                         className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">Bookkeeper</span>
@@ -46,10 +46,10 @@ const OurTeam = () => {
                 <div className="block group md:col-span-2 lg:col-span-1 md:col-start-2 lg:col-start-4">
                     <div className="relative mb-6">
                         <img src="/assets/ghufran.jpg" alt="Yasmine image"
-                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover object-top border border-solid border-transparent group-hover:border-indigo-600" />
+                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover object-top border border-solid border-transparent group-hover:border-blue-500" />
                     </div>
                     <h4
-                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
+                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-blue-500">
                         Ghufran Ahmad </h4>
                     <span
                         className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">Junior Accountant</span>
@@ -57,11 +57,11 @@ const OurTeam = () => {
                 <div className="block group min-[500px]:col-span-2 mx-auto md:col-span-2 lg:col-span-1 ">
                     <div className="relative mb-6">
                         <img src="https://pagedone.io/asset/uploads/1696238446.png" alt="Martin image"
-                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600" />
+                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-blue-500" />
                     </div>
                     <h4
-                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
-                        Martin Darbys</h4>
+                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-blue-500">
+                        Nabeel Saleem</h4>
                     <span
                         className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900"> Human Resources Manager</span>
                 </div>
@@ -84,10 +84,10 @@ const OurTeam = () => {
                 <div className="block group min-[500px]:col-span-2 mx-auto md:col-span-2 lg:col-span-1 ">
                     <div className="relative mb-6">
                         <img src="/assets/ihtisham.jpeg" alt="Martin image"
-                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600" />
+                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-blue-500" />
                     </div>
                     <h4
-                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
+                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-blue-500">
                         Ihtisham Ul Haq</h4>
                     <span
                         className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">Full Stack Developer</span>
@@ -97,10 +97,10 @@ const OurTeam = () => {
                 <div className="block group min-[500px]:col-span-2 mx-auto md:col-span-2 lg:col-span-1 ">
                     <div className="relative mb-6">
                         <img src="/assets/salman.jpg" alt="Martin image"
-                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600" />
+                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-blue-500" />
                     </div>
                     <h4
-                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
+                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-blue-500">
                         Salman Sadiq</h4>
                     <span
                         className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">Full Stack Developer</span>
@@ -111,10 +111,10 @@ const OurTeam = () => {
                 <div className="block group min-[500px]:col-span-2 mx-auto md:col-span-2 lg:col-span-1 ">
                     <div className="relative mb-6">
                         <img src="/assets/haris.jpg" alt="Martin image"
-                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-indigo-600" />
+                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover border border-solid border-transparent group-hover:border-blue-500" />
                     </div>
                     <h4
-                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
+                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-blue-500">
                        Malik Haris</h4>
                     <span
                         className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">Business Development Manager</span>
@@ -124,10 +124,10 @@ const OurTeam = () => {
                 <div className="block group min-[500px]:col-span-2 mx-auto md:col-span-2 lg:col-span-1 ">
                     <div className="relative mb-6">
                         <img src="/assets/moaaz.jpg" alt="Martin image"
-                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover object-top border border-solid border-transparent group-hover:border-indigo-600" />
+                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover object-top border border-solid border-transparent group-hover:border-blue-500" />
                     </div>
                     <h4
-                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
+                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-blue-500">
                        Moaz Asif</h4>
                     <span
                         className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">Business Development Executive</span>
@@ -138,10 +138,10 @@ const OurTeam = () => {
                 <div className="block group min-[500px]:col-span-2 mx-auto md:col-span-2 lg:col-span-1 ">
                     <div className="relative mb-6">
                         <img src="/assets/babar.jpeg" alt="Martin image"
-                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover object-center  border border-solid border-transparent group-hover:border-indigo-600" />
+                            className="w-40 h-40 rounded-full mx-auto transition-all duration-500 object-cover object-center  border border-solid border-transparent group-hover:border-blue-500" />
                     </div>
                     <h4
-                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
+                        className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-blue-500">
                        Babar Shahzad</h4>
                     <span
                         className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">Digital Marketing Expert</span>
